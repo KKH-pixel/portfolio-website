@@ -1,0 +1,193 @@
+body {
+    position: relative;
+    background-color: whitesmoke;
+    color: #010101;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top bar including name and nav links */
+
+.head {
+    background-color: #010101;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+}
+
+.head ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head > * {
+    flex-basis: 100%;
+}
+
+.head a {
+    color: whitesmoke;
+}
+
+.head-right {
+    font-size: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.head-left {
+    font-size: 300%;
+    align-items: center;
+} 
+
+/* h1 h2 h3 modifiers */
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+.head h1 {
+    background-color: #405cca;
+    padding: 18px;
+    display: flex;
+    max-width: 200px;
+    border-radius: 25px;
+}
+
+.title h1,
+.sidebar h1 {
+    display: flex;
+    padding: 25px;
+    border-right: 6px solid #405cca;
+    border-radius: 25px;
+    height: 100%;
+}
+
+h2 {
+    background-color: #405cca;
+    padding: 14px 16px;
+    border-radius: 25px;
+    margin-right: 6px;
+}
+
+h3 {
+    background-color: #405cca;
+    padding: 14px 16px;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+h2:hover,
+h3:hover {
+    background-color: #d2daf9;
+    color: #010101;
+}
+
+/* body of the page */
+
+p {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 91%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.rows {
+    display: flex;
+}
+
+div .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    flex: 1 1 30%;
+    min-width: 7ch;
+    max-width: 15%;
+    text-align: right;
+}
+
+.info {
+    flex: 1 1 60%;
+    max-width: auto;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* all images except go-up */
+
+img {
+    max-width: 90.5%;
+    align-items: center;
+    filter: opacity(100%);
+}
+
+.small {
+    max-width: 45%;
+    border-radius: 15% 30% 15% 30%;
+    padding: 3px;
+}
+
+.rows img {
+    border-radius: 15% 30% 15% 30%;
+    padding: 3px;
+}
+
+img:hover {
+    filter:opacity(65%);
+}
+
+/* footer-specific code */
+
+footer .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Image at the top of the page */
+
+.go-up img {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    max-width: none;
+}
+
+@media screen and (max-width: 768px) {
+    body,
+    .head, {
+        flex-direction: column;
+    }
+    h2 {
+        flex-direction: column;
+        align-content: center;
+    }
+    img {
+        flex-wrap: wrap;
+        min-width: 30%;
+    }
+}
+
+/* Notes
+Fonts:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+Color Palette:
+    lght blue: #d2daf9
+    md blue: 3a5efa
+    dk blue: 405cca
+    dkr blue: 2b3e95
+    blk: 010101
+} */
