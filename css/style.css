@@ -129,7 +129,6 @@ div .info {
 img {
     max-width: 90.5%;
     align-items: center;
-    filter: opacity(100%);
 }
 
 .small {
@@ -145,6 +144,10 @@ img {
 
 img:hover {
     filter:opacity(65%);
+}
+
+.noHov {
+    pointer-events: none;
 }
 
 /* footer-specific code */
