@@ -19,6 +19,7 @@ body {
     color: #bea88d;
 }
 
+/* Navigation Bar */
 nav {
     background-color: #95796b;
 }
@@ -44,6 +45,7 @@ navbar .container-fluid {
     margin-top: 0px;
 }
 
+/* Body Formatting */
 .text-end {
     padding-right: 5%;
 }
@@ -58,6 +60,7 @@ h1 {
     font-family: 'Audiowide', cursive;
 }
 
+/* Work Images */
 .row>img {
     padding-right: 0%;
     padding-left: 0%;
@@ -83,6 +86,7 @@ h1 {
     border-radius: 30% 0% 30% 0%;
 }
 
+/* Footer */
 footer {
     margin: 10px;
     background-color: #95796b;
@@ -104,6 +108,7 @@ footer .sidebar {
     padding-top: 2%;
 }
 
+/* Link Formatting */
 a h4 {
     color:#18222b;
     font-weight: bold;
@@ -139,6 +144,7 @@ a:active {
     font-weight: bold;
 }
 
+/* Footer Buttons */
 .in-button {
     margin-top: 1%;
     padding: 7px 10px;
@@ -226,5 +232,5 @@ a:active {
    display: inline-block;
    transform: translateY(-20px);
    transition: all .5s ease;
-} */
-
+}
+ */
