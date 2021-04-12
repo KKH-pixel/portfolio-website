@@ -34,9 +34,6 @@ nav {
     font-family: 'Bungee Hairline', cursive;
     font-weight: bold;
     text-align: right;
-    /* border: 1px solid transparent;
-    border-radius: .25rem;
-    transition: box-shadow .15s ease-in-out; */
 }
 
 .top-mar {
@@ -121,7 +118,7 @@ a {
 a:link {
     text-decoration: none;
     color:#18222b;
-    font-weight: bold;
+    font-weight:bolder;
 }
   
 a:visited {
